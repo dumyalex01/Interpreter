@@ -1,0 +1,44 @@
+float a=(9.2f+10f);
+float b=12.3f;
+int var=5;
+double var2=b+a;
+print("Valoarea lui var2 este:");
+print(var2);
+var=(int)a;
+print("Valoarea lui var este:");
+print(var);
+print("Valoarea lui b este:");
+print(b);
+if(a+1<b+1){
+    double d=5.0;
+    print("Valoarea lui d este:");
+    print(d);
+    if(a>10)
+    {   int z=5;
+        print("Valoarea lui a este:");
+        print(a);
+    }
+    else
+    {   
+        print("Nu este mai mic!");
+        print(a);
+    }
+}
+//z=7;
+float c=10f;
+c=(float)b;
+// hello thereW
+/* hei main321
+what theewq421 csasfk*/
+while(a>0){
+    a=a-1;
+}
+print(a);
+print("Dati valoarea lui a : ");
+read(a);
+print(a);
+float func(int x,int y){
+    return x-y;
+}
+c=func(6,7);
+print(c);
